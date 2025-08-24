@@ -25,20 +25,32 @@
 //     }
 // }
 
-public class Methods{
-    public static void main(String[] args){
-            int a = evenOrOdd(234);
-            if(a==0){
-                System.out.println(" is even");
-            }
-            else{
-                System.out.println(" is odd");
-            }
-    }
-        //0called method
-        public static int evenOrOdd(int a){
+// public class Methods{
+//     public static void main(String[] args){
+//             int a = evenOrOdd(234);
+//             if(a==0){
+//                 System.out.println(" is even");
+//             }
+//             else{
+//                 System.out.println(" is odd");
+//             }
+//     }
+//         //0called method
+//         public static int evenOrOdd(int a){
             
-                return a%2;
-            }
-        }
+//                 return a%2;
+//             }
+//         }
 
+import java.util.Scanner;
+
+public class Methods{
+    public static void main (String []args){
+        Scanner sc =new Scanner (System.in);
+        int num = sc.nextInt();
+        if (num % 2 ==0){
+            System.out.println ("even");
+        }else{
+        System.out.println("odd");
+}}
+}
